@@ -1,14 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-hide_st_style = """
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-"""
-
-
 st.set_page_config(
     page_title="O'slo Archive 주문조회",
     page_icon="./images/아카이브.png"
